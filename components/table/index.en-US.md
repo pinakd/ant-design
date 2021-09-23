@@ -21,33 +21,41 @@ Specify `dataSource` of Table as an array of data.
 const dataSource = [
   {
     key: '1',
-    name: 'Mike',
-    age: 32,
-    address: '10 Downing Street',
+    Rank:'1',
+    Username: 'Mike',
+    Course Completed: '3',
+    Certificates: '3',
   },
   {
     key: '2',
-    name: 'John',
-    age: 42,
-    address: '10 Downing Street',
+    Rank:'2',
+    Username: 'John',
+   Course Completed: '2',
+   Certificates: '3',
+   
   },
 ];
 
 const columns = [
+{
+    title: 'Rank',
+    dataIndex: 'Rank',
+    key: 'Rank',
+  },
   {
     title: 'Name',
     dataIndex: 'name',
     key: 'name',
   },
   {
-    title: 'Age',
-    dataIndex: 'age',
-    key: 'age',
+    title: 'Course Completed',
+    dataIndex: 'Course Completed',
+    key: 'Course Completed',
   },
   {
-    title: 'Address',
-    dataIndex: 'address',
-    key: 'address',
+    title: 'Certificates',
+    dataIndex: 'Certificates',
+    key: 'Certificates',
   },
 ];
 
